@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Conversor</title>
+</head>
+<body>
+    <h1>Conversor</h1>
+    <section class="menu">
+        <h2>Pesos (CLP)</h2>
+        <input type="text" id="digitar" placeholder="Ingrese el monto en CLP">
+        <h3>Moneda Cambio</h3>
+        <select id="seleccionar-tipo">
+        </select>
+        <button onclick="consultar()" id="consultar">Buscar</button>
+        <p>Conversion: <span id="resultado"></span></p>
+    </section>
+    <section id="crear-div">
+    </section>
+    <script src="./assets/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</body>
+</html>
